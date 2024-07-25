@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: black;
+            
+            font-family: Arial, sans-serif;
+        }
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+            color: #ffffff;
+        }
+        .hero {
+            background: url(https://img.freepik.com/free-vector/blue-data-technology-background-vector-with-binary-code_53876-110871.jpg) no-repeat center center;
+            background-size: cover;
+            height: 500px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+        .content-section {
+            padding: 60px 0;
+        }
+        .content-section h2 {
+            margin-bottom: 30px;
+        }
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        #img1{
+            border-radius: 50%;
+        }
+        #about{
+            background-color: #89dff0;
+            margin-top: 2em;
+            border: 1px solid darkgray;
+            border-radius: 10px;
+            padding-left: 2em;
+            box-shadow: 20px 20px 20px dimgray;
+
+        }
+        .social{
+            margin-left: 29em;
+            
+        }
+            
+        
+        .skills{
+            margin-left: 12em;
+            margin-right: 2em;
+            border: 1px;
+            border-radius: 10px;
+            box-shadow: 20px 20px 20px dimgray;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h3>
+            <dl>
+                <img id="img1" src="https://media.licdn.com/dms/image/D5603AQEtwNzP-rN7-g/profile-displayphoto-shrink_200_200/0/1688662131478?e=2147483647&v=beta&t=YPDLssIb-t5NePWrni2Vj8yiPJCivzoZ4PbkOQ2sKlY">
+                    <dt>Hi My Name Is </dt>
+                    <dd>Akshay Shaju</dd>
+                    <dd>MEAN || Full Stack Developer</dd>
+                    <i class="fa-solid fa-code"></i>
+                </dl>
+            </h3>
+    </div>
+
+    <!-- About Section -->
+    <div class="container content-section" id="about">
+        <h2>About Me</h2>
+        <p><em>Hi, I'm Akshay Shaju, a passionate web developer with a love for creating dynamic and user-friendly websites. With skills in HTML, CSS, JavaScript, and various frameworks, I build responsive and visually appealing web applications. My goal is to enhance the user experience by combining clean design with robust functionality. I enjoy solving complex problems and continuously learning new technologies to stay updated in the ever-evolving field of web development.</em></p>
+
+    </div>
+    <br><br><br>
+    <!--social media-->
+    <div class="social">
+        <h3>Connect With Me</h3>
+        <br>
+        <i  style="width:2em; font-size:200%;" class="fa-brands fa-square-github"></i>
+        <a style="margin-left: 1em;" href="https://github.com/akshayshaju1">GitHub</a>
+        
+        <i style="width:2em; font-size:200%;" class="fa-brands fa-linkedin"></i>
+        <a href="www.linkedin.com/in/
+        akshay-shaju-896381282
+         ">Linkedin</a>
+         
+         <i style="width:2em; font-size:200%;" class="fa-brands fa-square-instagram"></i>
+         <a href="https://www.instagram.com/mr_blog?igsh=NTc4MTIwNjQ2YQ==">Instagram</a>
+         <br>
+         <br>
+        </div>
+        <br><br> 
+        <!--skills-->
+        <div class="skills">
+            <h3>Skills</h3>
+         <br>
+         <h5>Bootstrap</h5>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+         </div>
+         <br>
+         <h5>CSS</h5>
+         <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+        </div>
+        <br>
+        <h5>HTML</h5>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+
+</div>
+
+            
+        </div>
+       
+      
+
+    <!-- Portfolio Section -->
+    <div class="container content-section" id="portfolio">
+        <h2>My Work</h2>
+        <div class="row">
+            <div class="col-md-4 portfolio-item" >
+                <img src="C:\Users\PRO\Videos\Captures\travel.png" class="img-fluid" alt="Project 1" onclick="window.open(www.google.com)">
+                
+                <h3>Travel website</h3>
+                <p>Using HTML , CSS AND BOOTSRAP</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img src="C:\Users\PRO\Videos\Captures\Document and 1 more page - Personal - Microsoft​ Edge 4_16_2024 8_59_27 PM.png" class="img-fluid" alt="Project 2">
+                <h3>Linkedin login page</h3>
+                <p>Using HTML , CSS , BOOTSTRAP and FONTAWESOME.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img style="height: 12em; width:33em;" src="C:\Users\PRO\Videos\Captures\Document and 2 more pages - Personal - Microsoft​ Edge 4_16_2024 10_49_32 PM.png" class="img-fluid" alt="Project 3">
+                <h3>Instagram login page</h3>
+                <p>Using HTML , CSS , BOOTSTRAP and FONTAWESOME.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container content-section" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+        <div>
+            <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
